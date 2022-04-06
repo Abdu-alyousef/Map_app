@@ -10,6 +10,8 @@ const GERMANY_BOUNDS: FitBounds = [
 ];
 const CITIES = ["Berlin", "Brussels", "Paris"];
 
+const TOKEN = "Your access token!"
+
 export const MapComponent = () => {
   const mapDiv = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<Map | null>(null);
@@ -20,8 +22,7 @@ export const MapComponent = () => {
       style: "mapbox://styles/mapbox/streets-v11",
       bounds: GERMANY_BOUNDS,
       zoom: 4.9,
-      accessToken:
-        "Your token",
+      accessToken: TOKEN,
     });
     setMap(map);
   }, [mapDiv]);
