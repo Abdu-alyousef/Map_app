@@ -21,7 +21,7 @@ export const MapComponent = () => {
       bounds: GERMANY_BOUNDS,
       zoom: 4.9,
       accessToken:
-        "pk.eyJ1IjoiZWNsZXZlciIsImEiOiJja3IzM3B3b24yMHNsMnBueGNya3I4eXExIn0.qNBd6dRRZLTTxKSJ0PUazg",
+        "Your token",
     });
     setMap(map);
   }, [mapDiv]);
