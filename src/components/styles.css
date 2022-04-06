@@ -1,0 +1,17 @@
+input {
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
+  visibility: initial;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}
+.mapboxgl-popup-content {
+  padding: 0px;
+  visibility: hidden;
+}
+.mapboxgl-popup {
+  padding: 0px;
+}
